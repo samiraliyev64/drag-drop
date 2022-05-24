@@ -35,6 +35,7 @@ function uploadImage(files){
                     </td>
                     <td>${file.name}</td>
                     <td>${file.size}</td>
+                    <td>X</td>
                 </tr>`;
     myTable.lastElementChild.innerHTML += tr;
     }

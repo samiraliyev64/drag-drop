@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 0;
+}
+
+.main {
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 30%;
+    width: 500px;
+    height: 300px;
+    border-radius: 40px;
+}
+
+.fa-arrow-up-from-bracket {
+    font-size: 50px;
+    color: white;
+}
+
+input {
+    display: none;
+}
+
+.myTable {
+    margin-top: 50px;
+    margin-left: 13%;
+    width: 70%;
+}
